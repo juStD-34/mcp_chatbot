@@ -1,0 +1,19 @@
+# Research on Multi-Agent Systems in AI
+
+After exploring deeplearning.ai, I identified "Multi-Agent Systems" as an interesting and emerging topic in AI development. The website mentioned that multi-agent systems are getting stronger as part of current AI trends.
+
+## Paper 1: From Single Agent to Multi-Agent: Improving Traffic Signal Control
+**Authors:** Maksim Tislenko, Dmitrii Kisilev
+**Published:** 2024-06-19
+
+This research focuses on applying multi-agent systems to traffic signal control problems. With increasing urbanization, optimizing traffic flow through intelligent signal control becomes more important. The researchers compared single-agent versus multi-agent approaches using two datasets. Their findings suggest that implementing multiple agents can enhance existing traffic control methods. Additionally, they found that fine-tuned large language models showed small improvements across all metrics when used in a multi-agent framework.
+
+## Paper 2: Navigating Fairness: Practitioners' Understanding, Challenges, and Strategies in AI/ML Development
+**Authors:** Aastha Pant, Rashina Hoda, Chakkrit Tantithamthavorn, Burak Turhan
+**Published:** 2024-03-21
+
+While this paper doesn't directly focus on multi-agent systems, it explores fairness in AI/ML development through interviews with 22 AI practitioners. The research identifies challenges in developing fair AI systems, consequences of unfair AI, and strategies to ensure fairness. This work is relevant to multi-agent systems since fairness concerns become even more complex when multiple AI agents interact within a system. The paper provides a framework that could help developers of multi-agent systems navigate fairness considerations.
+
+## Conclusion
+
+Multi-agent systems represent an important direction in AI research with applications in various domains from traffic management to cooperative problem-solving. As these systems become more prevalent, addressing challenges related to fairness, coordination, and optimization will be crucial. The papers above demonstrate both the practical applications of multi-agent approaches and the importance of considering ethical dimensions in their development.

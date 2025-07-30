@@ -1,0 +1,24 @@
+{
+  "2406.13693v1": {
+    "title": "From Single Agent to Multi-Agent: Improving Traffic Signal Control",
+    "authors": [
+      "Maksim Tislenko",
+      "Dmitrii Kisilev"
+    ],
+    "summary": "Due to accelerating urbanization, the importance of solving the signal\ncontrol problem increases. This paper analyzes various existing methods and\nsuggests options for increasing the number of agents to reduce the average\ntravel time. Experiments were carried out with 2 datasets. The results show\nthat in some cases, the implementation of multiple agents can improve existing\nmethods. For a fine-tuned large language model approach there is small\nenhancement on all metrics.",
+    "pdf_url": "http://arxiv.org/pdf/2406.13693v1",
+    "published": "2024-06-19"
+  },
+  "2403.15481v2": {
+    "title": "Navigating Fairness: Practitioners' Understanding, Challenges, and Strategies in AI/ML Development",
+    "authors": [
+      "Aastha Pant",
+      "Rashina Hoda",
+      "Chakkrit Tantithamthavorn",
+      "Burak Turhan"
+    ],
+    "summary": "The rise in the use of AI/ML applications across industries has sparked more\ndiscussions about the fairness of AI/ML in recent times. While prior research\non the fairness of AI/ML exists, there is a lack of empirical studies focused\non understanding the perspectives and experiences of AI practitioners in\ndeveloping a fair AI/ML system. Understanding AI practitioners' perspectives\nand experiences on the fairness of AI/ML systems are important because they are\ndirectly involved in its development and deployment and their insights can\noffer valuable real-world perspectives on the challenges associated with\nensuring fairness in AI/ML systems. We conducted semi-structured interviews\nwith 22 AI practitioners to investigate their understanding of what a 'fair\nAI/ML' is, the challenges they face in developing a fair AI/ML system, the\nconsequences of developing an unfair AI/ML system, and the strategies they\nemploy to ensure AI/ML system fairness. We developed a framework showcasing the\nrelationship between AI practitioners' understanding of 'fair AI/ML' system and\n(i) their challenges in its development, (ii) the consequences of developing an\nunfair AI/ML system, and (iii) strategies used to ensure AI/ML system fairness.\nBy exploring AI practitioners' perspectives and experiences, this study\nprovides actionable insights to enhance AI/ML fairness, which may promote\nfairer systems, reduce bias, and foster public trust in AI technologies.\nAdditionally, we also identify areas for further investigation and offer\nrecommendations to aid AI practitioners and AI companies in navigating\nfairness.",
+    "pdf_url": "http://arxiv.org/pdf/2403.15481v2",
+    "published": "2024-03-21"
+  }
+}

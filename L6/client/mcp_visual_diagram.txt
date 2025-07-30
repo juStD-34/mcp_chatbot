@@ -1,0 +1,62 @@
+```
++-----------------------------------------------------------------------+
+|                      MODEL CONTEXT PROTOCOL (MCP)                      |
++-----------------------------------------------------------------------+
+
++-------------------------+     +-------------------------+     +-------------------------+
+|       MCP PROJECTS      |     |      PARTICIPANTS       |     |         LAYERS         |
++-------------------------+     +-------------------------+     +-------------------------+
+| - MCP Specification     |     | +-------------------+   |     | +-------------------+   |
+| - MCP SDKs              |     | |    MCP HOST       |   |     | |    DATA LAYER     |   |
+| - MCP Development Tools |     | | (AI Application)  |   |     | | - JSON-RPC 2.0    |   |
+| - Reference Server      |     | |                   |   |     | | - Lifecycle Mgmt  |   |
+|   Implementations       |     | +--------+----------+   |     | | - Server Features |   |
++-------------------------+     |          |              |     | | - Client Features |   |
+                                |          | Creates      |     | | - Utility Features|   |
+                                |          v              |     | +-------------------+   |
+                                | +-------------------+   |     |                         |
+                                | |   MCP CLIENT(S)   |   |     | +-------------------+   |
+                                | | Connection per    |   |     | |  TRANSPORT LAYER  |   |
+                                | | server            |   |     | | - Stdio Transport |   |
+                                | +--------+----------+   |     | | - HTTP Transport  |   |
+                                |          |              |     | +-------------------+   |
+                                |          | Connects     |     +-------------------------+
+                                |          v              |                                
+                                | +-------------------+   |     +-------------------------+
+                                | |   MCP SERVER(S)   |   |     |       PRIMITIVES        |
+                                | | Context provider  |   |     +-------------------------+
+                                | +-------------------+   |     | SERVER PRIMITIVES:      |
+                                +-------------------------+     | - Tools (executable)    |
+                                                                | - Resources (data)      |
+                                                                | - Prompts (templates)   |
+                                                                |                         |
+                                                                | CLIENT PRIMITIVES:      |
+                                                                | - Sampling              |
+                                                                | - Elicitation           |
+                                                                | - Logging               |
+                                                                +-------------------------+
+
++-----------------------------------------------------------------------+
+|                        COMMUNICATION FLOW                              |
++-----------------------------------------------------------------------+
+|                                                                       |
+|  +----------+     JSON-RPC 2.0      +-----------+                     |
+|  | MCP      |<-------------------->| MCP        |                     |
+|  | CLIENT   |   - Requests         | SERVER     |                     |
+|  |          |   - Responses        |            |                     |
+|  +----------+   - Notifications    +-----------+                      |
+|                                                                       |
++-----------------------------------------------------------------------+
+
++-----------------------------------------------------------------------+
+|                      PROTOCOL OPERATIONS                              |
++-----------------------------------------------------------------------+
+|                                                                       |
+| - Lifecycle: initialize, negotiate capabilities, terminate            |
+| - Discovery: */list methods to discover available primitives          |
+| - Retrieval: */get methods to access primitives                       |
+| - Execution: tools/call to execute functions                          |
+| - Notifications: Real-time updates between clients and servers        |
+|                                                                       |
++-----------------------------------------------------------------------+
+```
